@@ -7,8 +7,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>HelloStruts</title>
 	</head>
+
 	<body>
-	<h1>HelloStruts2!</h1><br>
-	<h3><s:property value="result"/></h3>
+		<h1>HelloStruts2!</h1><br>
+		<h3><s:property value="result"/></h3>
 	</body>
 </html>

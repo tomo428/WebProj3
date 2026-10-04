@@ -14,6 +14,12 @@ public class HelloStrutsDAO {
 		Connection con = db.getConnection();
 		HelloStrutsDTO dto = new HelloStrutsDTO();
 
+//		【aiからのエラー修正コード】
+//	    if (con == null) {
+//	        dto.setResult("MySQLとの接続（Connectionの取得）に失敗しました。");
+//	        return dto;
+//	    }
+
 		String sql = "select * from users";
 		try {
 			PreparedStatement ps = con.prepareStatement(sql);
