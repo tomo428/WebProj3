@@ -25,7 +25,7 @@ public class LoginDAO {
 			ResultSet rs = ps.executeQuery();
 
 			if(rs.next()) {
-				dto.setUsername(rs.getString("username"));
+				dto.setUsername(rs.getString("user_name"));
 				dto.setPassword(rs.getString("password"));
 			}else {
 				dto.setUsername("該当なし");

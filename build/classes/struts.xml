@@ -19,5 +19,9 @@
 			<result name="success">login.jsp</result>
 			<result name="error">loginError.jsp</result>
 		</action>
+
+		<action name="InquiryCompleteAction" class="com.action.webproj3.action.InquiryCompleteAction" method="execute">
+			<result name="success">inquiryComplete.jsp</result>
+		</action>
 	</package>
 </struts>
