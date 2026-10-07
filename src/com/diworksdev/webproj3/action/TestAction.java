@@ -17,7 +17,7 @@ public class TestAction extends ActionSupport {
 		return ret;
 	}
 
-	public String gerUsername() {
+	public String getUsername() {
 		return username;
 	}
 	public void setUsername(String username) {
