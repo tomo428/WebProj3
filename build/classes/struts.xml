@@ -20,8 +20,16 @@
 			<result name="error">loginError.jsp</result>
 		</action>
 
-		<action name="InquiryCompleteAction" class="com.action.webproj3.action.InquiryCompleteAction" method="execute">
+		<action name="InquiryAction" class="com.diworksdev.webproj3.action.InquiryAction" method="execute">
+			<result name="success">inquiry.jsp</result>
+		</action>
+
+		<action name="InquiryCompleteAction" class="com.diworksdev.webproj3.action.InquiryCompleteAction" method="execute">
 			<result name="success">inquiryComplete.jsp</result>
+		</action>
+
+		<action name="TestAction" class="com.diworksdev.webproj3.action.TestAction" method="execute">
+			<result name="success">test.jsp</result>
 		</action>
 	</package>
 </struts>
